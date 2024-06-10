@@ -1,99 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CONSTRUCTIONS AND DEVELOPERS</title>
-    <link rel="stylesheet" href="prac1.css">
-</head>
-<body>
-    <div class="logo-final">
-        <center>   
-        <img src="logo-final.png" alt="Logo-final" width="300" height="300">
-        </center>
-    </div>
-    <div class="background-image"></div>
-    <nav class="navbar">
-        <div class="logo">
-            <img src="logo-final.png" alt="Logo">
-        </div>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About Us</a></li>
-            <li class="dropdown">
-                <a href="#services" class="dropbtn">Services</a>
-                <div class="dropdown-content">
-                    <a href="#service1">Architectural Design</a>
-                    <a href="#service2">Construction Management</a>
-                    <a href="#service3">Renovation and Remodeling</a>
-                </div>
-            </li>
-            <li class="dropdown">
-                <a href="#projects" class="dropbtn">Projects</a>
-                <div class="dropdown-content">
-                    <a href="#project1">Residential Complex</a>
-                    <a href="#project2">Commercial Building</a>
-                    <a href="#project3">Industrial Park</a>
-                </div>
-            </li>
-            <li class="dropdown">
-                <a href="#contact" class="dropbtn">Contact Us</a>
-                <div class="dropdown-content">
-                    <a href="mailto:contact@narayanaconstructors.com">Email: ncb@narayanaconstructors.com</a>
-                    <a href="tel:+1234567890">Phone: 9386582658</a>
-                    <a href="#address">Address: 123 Builder Street, Banglore , India</a>
-                </div>
-            </li>
-        </ul>
-    </nav>
-    <div class="content">
-        <h1 class="highlight slide-in">NARAYANA CONSTRUCTORS AND BUILDERS</h1>
-        <center>
-            <h3>"We just don't construct we create homes, shape cities, and build futures"</h3>
-        </center> 
-    </div>
-
-    <!-- Home Section -->
-    <section id="home" class="section">
-        <h2>Welcome to Narayana Constructors and Builders</h2>
-        <p>At Narayana Constructors and Builders, we are dedicated to creating not<br>just buildings but homes and spaces that shape the future. With years of<br>experience in the construction industry, we pride ourselves on our<br>commitment to quality, innovation, and customer satisfaction.</p>
-    </section>
-
-    <!-- About Us Section -->
-    <section id="about" class="section">
-        <h2>About Us</h2>
-        <p>Narayana Constructors and Builders was founded with the vision to transform<br>the construction landscape by integrating cutting-edge technology,<br>sustainable practices, and a customer-centric approach. Our team of<br>experienced professionals is passionate about delivering projects that exceed<br>expectations and create lasting value for our clients and communities.</p>
-    </section>
-
-    <!-- Services Section -->
-    <section id="service1" class="section">
-        <h2>Architectural Design</h2>
-        <p>Our architectural design services bring your vision to life with<br>innovative and sustainable solutions.</p>
-    </section>
-    <section id="service2" class="section">
-        <h2>Construction Management</h2>
-        <p>We provide comprehensive construction management services to ensure<br>your project is completed on time and within budget.</p>
-    </section>
-    <section id="service3" class="section">
-        <h2>Renovation and Remodeling</h2>
-        <p>Transform your existing spaces with our expert renovation<br>and remodeling services.</p>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="project1" class="section">
-        <h2>Residential Complex</h2>
-        <p>Our residential complex projects are designed to provide<br>comfortable and sustainable living spaces.</p>
-    </section>
-    <section id="project2" class="section">
-        <h2>Commercial Building</h2>
-        <p>We specialize in building modern commercial spaces that<br>meet the needs of today's businesses.</p>
-    </section>
-    <section id="project3" class="section">
-        <h2>Industrial Park</h2>
-        <p>We specialize in building Industrial Park that<br>meet the needs of today's businesses.</p>
-    </section>
-</body>
-</html>
 html, body {
     height: 100%;
     margin: 0;
@@ -313,5 +217,101 @@ h2 {
         opacity: 1;
     }
 }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONSTRUCTIONS AND DEVELOPERS</title>
+    <link rel="stylesheet" href="prac1.css">
+</head>
+<body>
+    <div class="logo-final">
+        <center>   
+        <img src="logo-final.png" alt="Logo-final" width="300" height="300">
+        </center>
+    </div>
+    <div class="background-image"></div>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="logo-final.png" alt="Logo">
+        </div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li class="dropdown">
+                <a href="#services" class="dropbtn">Services</a>
+                <div class="dropdown-content">
+                    <a href="#service1">Architectural Design</a>
+                    <a href="#service2">Construction Management</a>
+                    <a href="#service3">Renovation and Remodeling</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="#projects" class="dropbtn">Projects</a>
+                <div class="dropdown-content">
+                    <a href="#project1">Residential Complex</a>
+                    <a href="#project2">Commercial Building</a>
+                    <a href="#project3">Industrial Park</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="#contact" class="dropbtn">Contact Us</a>
+                <div class="dropdown-content">
+                    <a href="mailto:contact@narayanaconstructors.com">Email: ncb@narayanaconstructors.com</a>
+                    <a href="tel:+1234567890">Phone: 9386582658</a>
+                    <a href="#address">Address: 123 Builder Street, Banglore , India</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <div class="content">
+        <h1 class="highlight slide-in">NARAYANA CONSTRUCTORS AND BUILDERS</h1>
+        <center>
+            <h3>"We just don't construct we create homes, shape cities, and build futures"</h3>
+        </center> 
+    </div>
+
+    <!-- Home Section -->
+    <section id="home" class="section">
+        <h2>Welcome to Narayana Constructors and Builders</h2>
+        <p>At Narayana Constructors and Builders, we are dedicated to creating not<br>just buildings but homes and spaces that shape the future. With years of<br>experience in the construction industry, we pride ourselves on our<br>commitment to quality, innovation, and customer satisfaction.</p>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="section">
+        <h2>About Us</h2>
+        <p>Narayana Constructors and Builders was founded with the vision to transform<br>the construction landscape by integrating cutting-edge technology,<br>sustainable practices, and a customer-centric approach. Our team of<br>experienced professionals is passionate about delivering projects that exceed<br>expectations and create lasting value for our clients and communities.</p>
+    </section>
+
+    <!-- Services Section -->
+    <section id="service1" class="section">
+        <h2>Architectural Design</h2>
+        <p>Our architectural design services bring your vision to life with<br>innovative and sustainable solutions.</p>
+    </section>
+    <section id="service2" class="section">
+        <h2>Construction Management</h2>
+        <p>We provide comprehensive construction management services to ensure<br>your project is completed on time and within budget.</p>
+    </section>
+    <section id="service3" class="section">
+        <h2>Renovation and Remodeling</h2>
+        <p>Transform your existing spaces with our expert renovation<br>and remodeling services.</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="project1" class="section">
+        <h2>Residential Complex</h2>
+        <p>Our residential complex projects are designed to provide<br>comfortable and sustainable living spaces.</p>
+    </section>
+    <section id="project2" class="section">
+        <h2>Commercial Building</h2>
+        <p>We specialize in building modern commercial spaces that<br>meet the needs of today's businesses.</p>
+    </section>
+    <section id="project3" class="section">
+        <h2>Industrial Park</h2>
+        <p>We specialize in building Industrial Park that<br>meet the needs of today's businesses.</p>
+    </section>
+</body>
+</html>
 
 
